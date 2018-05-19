@@ -1,5 +1,4 @@
 # Switch-Trade-Coin
-Switch-Trade-Coin
 
 
 
