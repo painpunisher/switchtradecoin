@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxWidth="-Infinity" prefHeight="450.0" prefWidth="800" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="app.start.gui.ContractController">
+	<!-- TODO Add Nodes -->
+	<top>
+      		<Button fx:id="newsmartcontract" mnemonicParsing="false" onAction="#designSmartContract" text="Design New Smart Contract" BorderPane.alignment="CENTER" />
+         </top>
+         <center>
+      				<TableView fx:id="historycontracts" maxHeight="-Infinity" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="800" BorderPane.alignment="CENTER">
+      					<columns>
+      						<TableColumn fx:id="schdesigndate" prefWidth="142.0" text="Design Date" />
+      						<TableColumn fx:id="schexpiredate" prefWidth="119.0" text="Expire Date" />
+      						<TableColumn fx:id="schlocation" prefWidth="147.0" text="Location" />
+      						<TableColumn fx:id="schprice" prefWidth="179.0" text="Price" />
+      					</columns>
+      				</TableView>
+         </center>
+         <bottom>
+      				<TableView fx:id="activecontracts" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="200.0" prefWidth="800" BorderPane.alignment="CENTER">
+      					<columns>
+      						<TableColumn fx:id="scadesigndate" prefWidth="142.0" text="Design Date" />
+      						<TableColumn fx:id="scaexpiredate" prefWidth="136.0" text="Expire Date" />
+      						<TableColumn fx:id="scalocation" prefWidth="110.0" text="Location" />
+      						<TableColumn fx:id="scaprice" prefWidth="99.0" text="Price" />
+      						<TableColumn fx:id="scastatus" prefWidth="235.0" text="Status" />
+      						<TableColumn fx:id="scabalance" prefWidth="77.0" text="Balance" />
+      					</columns>
+      				</TableView>
+         </bottom>
+</BorderPane>
