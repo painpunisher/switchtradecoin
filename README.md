@@ -1,5 +1,5 @@
 # Switch-Trade-Coin
-
+[![BDC Grant Winner](http://blockchaindevelopersclub.com/grant-winner/svg/switchtradecoin)](http://blockchaindevelopersclub.com/grant-winner/info/switchtradecoin)
 
 
 
